@@ -59,22 +59,22 @@ public class Bai3 {
             t = list.get(0);
             list.remove(0);
             if(t.x == target[0] && t.y == chessPort[1]){
-                return t.dis;
+                return t.dis; // tra ve so buoc di cua quan cơ
             }
 
             for (int i = 0; i < 8; i++) {
                 x = t.x + dx[i];
                 y = t.y + dy[i];
 
-                // If reachable state is not yet visited and
-                // inside board, push that state into queue
+                // kiem tra hop le ban co tra ve
+                //
                 if (checkInside(x, y, 8) && !visit[x][y]) {
                     visit[x][y] = true;
                     list.add(new cell(x, y, t.dis + 1));
                 }
             }
         }
-        return -1000000000;
+        return -1000000000; // cho du thu tuc ham
     }
 
     // kiem tra buoc di quan ma co hop le khong
