@@ -29,4 +29,14 @@ public class Bai2 {
             }
         }
     }
+//    =========================================================================
+//    Ket qua
+//    =========================================================================
+//5 la nguoi dau tien ben trai
+//33 co 0 nguoi cao hon va 1 nguoi thap hon va co 0 nguoi cao bang tinh tu ben trai sang
+//11 co 1 nguoi cao hon va 1 nguoi thap hon va co 0 nguoi cao bang tinh tu ben trai sang
+//22 co 1 nguoi cao hon va 2 nguoi thap hon va co 0 nguoi cao bang tinh tu ben trai sang
+//44 co 0 nguoi cao hon va 4 nguoi thap hon va co 0 nguoi cao bang tinh tu ben trai sang
+//55 co 0 nguoi cao hon va 5 nguoi thap hon va co 0 nguoi cao bang tinh tu ben trai sang
+//66 co 0 nguoi cao hon va 6 nguoi thap hon va co 0 nguoi cao bang tinh tu ben trai sang
 }
